@@ -1,0 +1,36 @@
+#title {
+  font-size: 3rem;
+  color: #008800;
+}
+
+.all {
+  text-align: center;
+}
+
+button {
+  font-size: x-large;
+  color: #006666;
+  margin-bottom: 1em;
+}
+
+#status-message {
+  font-size: medium;
+  color: #006666;
+}
+
+#vote-message {
+  font-size: 2rem;
+  color: #ffc520;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#connection-count {
+  font-size: medium;
+  color: blue;
+}
+
+#vote-tally {
+  font-size: large;
+  color: #000088;
+}

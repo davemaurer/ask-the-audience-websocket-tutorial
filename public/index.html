@@ -1,0 +1,31 @@
+<!--STEP 10 - add markup, then source the socket.io javascript and client.js - go to public/client.js for step 11-->
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+  <body>
+  <!--STEP 19 add buttons to allow the client to send messages to the server - go to client.js for step 20-->
+    <div class="all">
+      <h1 id="title">Ask the Audience</h1>
+      <div id="choices">
+        <button>StarWars</button>
+        <button>DumbandDumber</button>
+        <button>Xmen</button>
+        <button>Chocolate</button>
+      </div>
+
+      <!--STEP 17 - add a div for receiving the server's single socket emitter on the client side - go to client.js for step 18-->
+      <div id="status-message"></div>
+
+      <!--STEP 13 - add a div to keep track of connections on the client side - go to server.js for step 14-->
+      <div id="connection-count"></div>
+      <div id="vote-message"></div>
+      <div id="vote-tally"></div>
+
+      <!-- Make sure your JS is at the bottom of the body! -->
+      <script src="/socket.io/socket.io.js"></script>
+      <script src="/client.js"></script>
+    </div>
+  </body>
+</html>
